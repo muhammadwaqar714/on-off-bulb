@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+           /* background-image: url("back.jpg");
+           background-repeat: no-repeat;
+           background-size: auto; */
+        }
+        button{
+            color:white;
+            font-weight: 600;
+            background-color:crimson;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            width: 40px;
+        }
+        button:hover{
+            background-color: rgba(20, 214, 240, 0.924);
+            transition: 2s;
+            transform: rotateZ(10deg);
+
+
+
+
+
+
+            
+               }
+        
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <img src="off.png" width="200" id="bulb"> <br>
+        <button onclick="on()">On</button>
+        <button onclick="off()">Off</button>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
